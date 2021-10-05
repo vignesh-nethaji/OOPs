@@ -2,24 +2,26 @@
 
 namespace OOPs.Constructor
 {
+    /// <summary>
+    /// This is main program class.
+    /// </summary>
     public class ConstructorExample
     {
         static void Main(string[] args)
         {
-            ///<summary>
-            /// copy constructor operation. a object assingned the b object constructor input parameter.
-            /// The a object members copy the b object.
+            ///This is copy constructor operation.
+            ///student1 object assingned the student2 object constructor input parameter.
+            ///The student1 object members copy the student2 object.
             ///</summary>
             CopyConstructorExample student1 = new CopyConstructorExample();
             student1.Id = 19;
             student1.Name = "selva";
             CopyConstructorExample student2 = new CopyConstructorExample(student1);
 
-
             ///<summary>
-            ///Constructor overload operation.same contrcutor name with different parameters.
+            ///This is Constructor overload operation.
+            ///same contrcutor name with different input parameters.
             ///</summary>
-
             ConstructorOverloadExample student = new ConstructorOverloadExample();
             ConstructorOverloadExample studentId = new ConstructorOverloadExample(2);
             ConstructorOverloadExample studentName = new ConstructorOverloadExample("Vignesh");
