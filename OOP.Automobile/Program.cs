@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 
-namespace OOP.Terminal
+namespace OOP.Automobile
 {
     class Program
     {
@@ -16,17 +16,17 @@ namespace OOP.Terminal
 
             AutomobileValidate automobileValidate = new AutomobileValidate();
             automobileValidate.CheckCarInstance();
-            //automobileValidate.CheckIsValid();
-            //automobileValidate.CheckToString();
-            //automobileValidate.CheckOperatorOverload();
-            //automobileValidate.CheckVehicleTypeException();
-            //automobileValidate.CheckPSversion();
-            //automobileValidate.CheckObjectTypeConversion();
-            //automobileValidate.CheckOverrideIsValid();
-            //automobileValidate.CheckDelegate();
-            //automobileValidate.CheckCustomDelegate();
+            automobileValidate.CheckIsValid();
+            automobileValidate.CheckToString();
+            automobileValidate.CheckOperatorOverload();
+            automobileValidate.CheckVehicleTypeException();
+            automobileValidate.CheckPSversion();
+            automobileValidate.CheckObjectTypeConversion();
+            automobileValidate.CheckOverrideIsValid();
+            automobileValidate.CheckDelegate();
+            automobileValidate.CheckCustomDelegate();
 
-           
+
 
         }
     }

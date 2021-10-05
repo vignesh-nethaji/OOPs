@@ -7,7 +7,7 @@ using OOP.Automobile.Vehicles.General;
 using System;
 using System.Drawing;
 
-namespace OOP.Terminal
+namespace OOP.Automobile
 {
     public class AutomobileValidate
     {
@@ -80,7 +80,7 @@ namespace OOP.Terminal
                 HyundaiCretaDieselCar car1 = new HyundaiCretaDieselCar();
                 car1.TypeOfVehicle = Automobile.Enums.VehicleType.Bike;
             }
-            catch (ArgumentException e)
+            catch (ArgumentException )
             {
 
                 throw;
