@@ -12,7 +12,7 @@ namespace OOPs.Conditions
         /// These conditions are specified by a set of conditional statements having boolean expressions which are evaluated to a boolean value true or false
         /// </summary>
 
-        public void Ifconditional()
+        public void IfConditional()
         {
 
             // code block to be executed when if condition evaluates to true
@@ -29,7 +29,7 @@ namespace OOPs.Conditions
             }
         }
 
-        public void Elseifconditional()
+        public void ElseIfConditional()
         {
 
             int i = 10, j = 20;
@@ -59,7 +59,7 @@ namespace OOPs.Conditions
             }
         }
 
-        public void NextedIfConitional()
+        public void NestedIfConitional()
         {
             int i = 10, j = 20;
 
@@ -88,7 +88,7 @@ namespace OOPs.Conditions
 
         }
 
-        public void Ternaryoperator()
+        public void TernaryOperator()
         {
 
             //This is ternaryoperator conditional like as if else
@@ -111,8 +111,8 @@ namespace OOPs.Conditions
 
 
             Console.WriteLine("enter the number which day you need? :");
-            int userinput1 = Convert.ToInt32(Console.ReadLine());
-            switch (userinput1)
+            int day = Convert.ToInt32(Console.ReadLine());
+            switch (day)
             {
                 case 1:
                     Console.WriteLine("Monday");

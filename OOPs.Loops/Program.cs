@@ -12,7 +12,7 @@ namespace OOPs.Loops
             ///  I created two object there for the access the class reference one is ConditionalsStatement otherone is LoopsStatement
             ///</summary>
 
-            LoopStatement obj1 = new LoopStatement();
+            Loops obj1 = new Loops();
 
             obj1.Forloop();
             obj1.Foreach();
