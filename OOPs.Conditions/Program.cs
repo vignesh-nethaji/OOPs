@@ -12,12 +12,11 @@ namespace OOPs.Conditions
             /// </summary>
 
             ConditionalStatement obj = new ConditionalStatement();
-
-            obj.Ifconditional();
-            obj.Elseifconditional();
-            obj.NextedIfConitional();
+            obj.IfConditional();
+            obj.ElseIfConditional();
+            obj.NestedIfConitional();
             obj.SwitchConditional();
-            obj.Ternaryoperator();
+            obj.TernaryOperator();
             obj.BreakConditional();
             obj.ContinueConditional();
 

@@ -4,19 +4,18 @@ using System.Text;
 
 namespace OOPs.Conditions
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class ConditionalStatement
     {
-
         /// <summary>
         /// Conditional statements help you to make a decision based on certain conditions.
-        /// These conditions are specified by a set of conditional statements having boolean expressions which are evaluated to a boolean value true or false
+        /// These conditions are specified by a set of conditional statements having boolean expressions which evaluated to a boolean value true or false
         /// </summary>
-
-        public void Ifconditional()
+        public void IfConditional()
         {
-
             // code block to be executed when if condition evaluates to true
-
             int x = 20;
             int y = 18;
             if (x > y)
@@ -29,15 +28,13 @@ namespace OOPs.Conditions
             }
         }
 
-        public void Elseifconditional()
+        public void ElseIfConditional()
         {
 
             int i = 10, j = 20;
             if (i == j)
             {
-
                 // code block to be executed when if condition1 evaluates to true
-
                 Console.WriteLine("i is equal to j");
             }
             else if (i > j)
@@ -59,7 +56,7 @@ namespace OOPs.Conditions
             }
         }
 
-        public void NextedIfConitional()
+        public void NestedIfConitional()
         {
             int i = 10, j = 20;
 
@@ -88,7 +85,7 @@ namespace OOPs.Conditions
 
         }
 
-        public void Ternaryoperator()
+        public void TernaryOperator()
         {
 
             //This is ternaryoperator conditional like as if else
@@ -111,8 +108,8 @@ namespace OOPs.Conditions
 
 
             Console.WriteLine("enter the number which day you need? :");
-            int userinput1 = Convert.ToInt32(Console.ReadLine());
-            switch (userinput1)
+            int day = Convert.ToInt32(Console.ReadLine());
+            switch (day)
             {
                 case 1:
                     Console.WriteLine("Monday");
