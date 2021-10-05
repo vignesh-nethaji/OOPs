@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOPs.Loops
 {
-    public class LoopStatement
+    public class Loops
     {
 
         /// <summary>
