@@ -7,7 +7,7 @@ using OOP.Automobile.Vehicles.General;
 using System;
 using System.Drawing;
 
-namespace OOP.Terminal
+namespace OOP.Automobile
 {
     public class AutomobileValidate
     {
