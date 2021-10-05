@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 
-namespace OOP.Terminal
+namespace OOP.Automobile
 {
     class Program
     {
