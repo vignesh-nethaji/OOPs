@@ -12,7 +12,6 @@ namespace OOPs.Conditions
             /// </summary>
 
             ConditionalStatement obj = new ConditionalStatement();
-
             obj.IfConditional();
             obj.ElseIfConditional();
             obj.NestedIfConitional();

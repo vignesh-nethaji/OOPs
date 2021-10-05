@@ -7,9 +7,9 @@ namespace OOPs.Constructor
         static void Main(string[] args)
         {
             ///<summary>
-            ///copy constructor operation. a object assingned the b object constructor input parameter.The a object members copy the b object.
+            /// copy constructor operation. a object assingned the b object constructor input parameter.
+            /// The a object members copy the b object.
             ///</summary>
-
             CopyConstructorExample student1 = new CopyConstructorExample();
             student1.Id = 19;
             student1.Name = "selva";

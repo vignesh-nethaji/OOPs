@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.Polymorphism", "OOPs.P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.Interfaces", "OOPs.Interfaces\OOPs.Interfaces.csproj", "{9ED81806-6BC8-4DAE-9B04-5FC4B1764DC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs.AccessModifier.Base", "OOPs.AccessModifier.Base\OOPs.AccessModifier.Base.csproj", "{D31BC4F3-E0A0-4686-9159-09C273223A60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.AccessModifier.Base", "OOPs.AccessModifier.Base\OOPs.AccessModifier.Base.csproj", "{D31BC4F3-E0A0-4686-9159-09C273223A60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.Automobile", "OOPs.Automobile\OOPs.Automobile.csproj", "{140B4A45-7543-4B7E-997A-01E34530CCA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{D31BC4F3-E0A0-4686-9159-09C273223A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D31BC4F3-E0A0-4686-9159-09C273223A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D31BC4F3-E0A0-4686-9159-09C273223A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140B4A45-7543-4B7E-997A-01E34530CCA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140B4A45-7543-4B7E-997A-01E34530CCA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140B4A45-7543-4B7E-997A-01E34530CCA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140B4A45-7543-4B7E-997A-01E34530CCA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

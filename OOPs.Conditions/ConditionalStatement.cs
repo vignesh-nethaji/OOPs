@@ -4,19 +4,18 @@ using System.Text;
 
 namespace OOPs.Conditions
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class ConditionalStatement
     {
-
         /// <summary>
         /// Conditional statements help you to make a decision based on certain conditions.
-        /// These conditions are specified by a set of conditional statements having boolean expressions which are evaluated to a boolean value true or false
+        /// These conditions are specified by a set of conditional statements having boolean expressions which evaluated to a boolean value true or false
         /// </summary>
-
         public void IfConditional()
         {
-
             // code block to be executed when if condition evaluates to true
-
             int x = 20;
             int y = 18;
             if (x > y)
@@ -35,9 +34,7 @@ namespace OOPs.Conditions
             int i = 10, j = 20;
             if (i == j)
             {
-
                 // code block to be executed when if condition1 evaluates to true
-
                 Console.WriteLine("i is equal to j");
             }
             else if (i > j)
