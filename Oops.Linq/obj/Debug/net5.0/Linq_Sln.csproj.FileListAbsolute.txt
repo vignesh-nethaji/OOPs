@@ -1,0 +1,16 @@
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\obj\Debug\net5.0\Linq_Sln.csproj.AssemblyReference.cache
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\obj\Debug\net5.0\Linq_Sln.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\obj\Debug\net5.0\Linq_Sln.AssemblyInfoInputs.cache
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\obj\Debug\net5.0\Linq_Sln.AssemblyInfo.cs
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\obj\Debug\net5.0\Linq_Sln.csproj.CoreCompileInputs.cache
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\bin\Debug\net5.0\Linq_Sln.exe
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\bin\Debug\net5.0\Linq_Sln.deps.json
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\bin\Debug\net5.0\Linq_Sln.runtimeconfig.json
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\bin\Debug\net5.0\Linq_Sln.runtimeconfig.dev.json
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\bin\Debug\net5.0\Linq_Sln.dll
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\bin\Debug\net5.0\ref\Linq_Sln.dll
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\bin\Debug\net5.0\Linq_Sln.pdb
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\obj\Debug\net5.0\Linq_Sln.dll
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\obj\Debug\net5.0\ref\Linq_Sln.dll
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\obj\Debug\net5.0\Linq_Sln.pdb
+C:\Users\Umarfaizal.S\source\repos\ConsoleApp1\obj\Debug\net5.0\Linq_Sln.genruntimeconfig.cache
