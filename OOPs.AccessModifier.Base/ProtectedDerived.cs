@@ -4,11 +4,21 @@ using System.Text;
 
 namespace OOPs.AccessModifier.Base
 {
-    class ProtectedDerived:ProtectedBase
+    class ProtectedDerived: ProtectedBase
     {
         public void Test()
         {
-            base.Age = 18;
+            Age = 18;
+        }
+    }
+
+    class TestProtected
+    {
+        public void Test()
+        {
+            ProtectedBase protectedBase = new ProtectedBase();
+            //protectedBase.Age = 18; // uncomment and check it.
+
         }
     }
 }

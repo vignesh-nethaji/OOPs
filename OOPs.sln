@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs.Classes", "OOPs.Classes\OOPs.Classes.csproj", "{2C922B7B-E035-4641-8DD2-B9CFE0C70FBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.Classes", "OOPs.Classes\OOPs.Classes.csproj", "{2C922B7B-E035-4641-8DD2-B9CFE0C70FBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs.Constructor", "OOPs.Constructor\OOPs.Constructor.csproj", "{7529FCE8-69FA-4599-B0C4-D2AE6FC8DEA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.Constructor", "OOPs.Constructor\OOPs.Constructor.csproj", "{7529FCE8-69FA-4599-B0C4-D2AE6FC8DEA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs.Conditions", "OOPs.Conditions\OOPs.Conditions.csproj", "{3CC6DECF-4BDA-4B7C-AD1E-D13E1C176BB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.Conditions", "OOPs.Conditions\OOPs.Conditions.csproj", "{3CC6DECF-4BDA-4B7C-AD1E-D13E1C176BB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs.Loops", "OOPs.Loops\OOPs.Loops.csproj", "{A121B803-9A2D-414E-A92C-9CD8A1021B83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.Loops", "OOPs.Loops\OOPs.Loops.csproj", "{A121B803-9A2D-414E-A92C-9CD8A1021B83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs.Operators", "OOPs.Operators\OOPs.Operators.csproj", "{3C2F8BFA-7CED-49B4-A2A8-203C047F656C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.Operators", "OOPs.Operators\OOPs.Operators.csproj", "{3C2F8BFA-7CED-49B4-A2A8-203C047F656C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs.AccessModifier", "OOPs.AccessModifier\OOPs.AccessModifier.csproj", "{F6C218B3-B829-4987-A208-C9092EBFE7DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.AccessModifier", "OOPs.AccessModifier\OOPs.AccessModifier.csproj", "{F6C218B3-B829-4987-A208-C9092EBFE7DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs.Inheritance", "OOPs.Inheritance\OOPs.Inheritance.csproj", "{20C38125-9F3B-47B2-819D-C335BFDF9233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.Inheritance", "OOPs.Inheritance\OOPs.Inheritance.csproj", "{20C38125-9F3B-47B2-819D-C335BFDF9233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs.Polymorphism", "OOPs.Polymorphism\OOPs.Polymorphism.csproj", "{2C0E96FF-2717-4A82-B63E-C1ABE920F712}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.Polymorphism", "OOPs.Polymorphism\OOPs.Polymorphism.csproj", "{2C0E96FF-2717-4A82-B63E-C1ABE920F712}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs.Interfaces", "OOPs.Interfaces\OOPs.Interfaces.csproj", "{9ED81806-6BC8-4DAE-9B04-5FC4B1764DC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.Interfaces", "OOPs.Interfaces\OOPs.Interfaces.csproj", "{9ED81806-6BC8-4DAE-9B04-5FC4B1764DC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPs.AccessModifier.Base", "OOPs.AccessModifier.Base\OOPs.AccessModifier.Base.csproj", "{8CA33A40-0F83-4D18-9B2E-7633AE153ADF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{9ED81806-6BC8-4DAE-9B04-5FC4B1764DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ED81806-6BC8-4DAE-9B04-5FC4B1764DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ED81806-6BC8-4DAE-9B04-5FC4B1764DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA33A40-0F83-4D18-9B2E-7633AE153ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA33A40-0F83-4D18-9B2E-7633AE153ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA33A40-0F83-4D18-9B2E-7633AE153ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA33A40-0F83-4D18-9B2E-7633AE153ADF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

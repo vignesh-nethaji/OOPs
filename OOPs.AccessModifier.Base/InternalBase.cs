@@ -5,9 +5,10 @@ using System.Text;
 namespace OOPs.AccessModifier.Base
 {
     #region Internal
-    class InternalBase
+   public class InternalBase
     {
-        internal string FName { get; set; } 
+        internal string FName { get; set; }
+        public int Id { get; set; }
     }
     #endregion
 }
