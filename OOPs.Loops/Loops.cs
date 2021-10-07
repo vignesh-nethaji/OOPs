@@ -11,8 +11,6 @@ namespace OOPs.Loops
         /// Looping in a programming language is a way to execute a statement or a set of statements multiple times depending on the result of the condition to be evaluated to execute statements. 
         /// The result condition should be true to execute statements within loops
         /// </summary>
-
-
         public void Forloop()
         {
             //for loop is used to iterate a part of the program several times
@@ -53,9 +51,7 @@ namespace OOPs.Loops
 
         public void While()
         {
-
             // while loop first check condition before executing code block , if it true then only code block will execute.
-
             int i = 10;
             while (i < 10)
             {

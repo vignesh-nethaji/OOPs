@@ -4,8 +4,7 @@ using System.Text;
 
 namespace OOPs.Classes
 {
-   public abstract  class AbstractClass
-
+    public abstract class AbstractClass
     {
         public AbstractClass(int i)
         {
@@ -36,6 +35,14 @@ namespace OOPs.Classes
         public override void Test()
         {
 
+        }
+    }
+
+    public class AbstractInstance
+    {
+        public void Test()
+        {
+            //AbstractClass abstractClass = new AbstractClass(); // uncomment and check it
         }
     }
 }

@@ -17,4 +17,9 @@ namespace OOP.Classes
             SealedClass sealedClass = new SealedClass();
         }
     }
+
+    //public class SealedInherit : SealedClass
+    //{
+
+    //}
 }

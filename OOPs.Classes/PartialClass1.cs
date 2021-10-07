@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP.Classes
 {
-    public partial class PartialClass1
+    public partial class TestPartial
     {
         public string Name { get; set; }
     }
