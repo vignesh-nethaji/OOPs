@@ -58,33 +58,33 @@ namespace OOPs.Operators
         }
 
         public void Precedenceoperator()
-            {
+        {
             int x = 20, y = 5, z = 4;
-        int result = x / y + z;
-        Console.WriteLine("Result1: "+result);
+            int result = x / y + z;
+            Console.WriteLine("Result1: " + result);
             bool result2 = z <= y + x;
-        Console.WriteLine("Result2: "+result2);
+            Console.WriteLine("Result2: " + result2);
             Console.WriteLine("Press Enter Key to Exit..");
             Console.ReadLine();
         }
 
         public void AssignmentOPerator()
         {
-           int x = 20;
+            int x = 20;
             x += 10;
-           Console.WriteLine("Add Assignment: " + x);
-           x *= 4;
-           Console.WriteLine("Multiply Assignment: " + x);
-           x %= 7;
-           Console.WriteLine("Modulo Assignment: " + x);
-           x &= 10;
-           Console.WriteLine("Bitwise And Assignment: " + x);
-           x ^= 12;
-           Console.WriteLine("Bitwise XOR Assignment: " + x);
-           x >>= 3;
-           Console.WriteLine("Right Shift Assignment: " + x);
-           Console.WriteLine("Press Enter Key to Exit..");
-           Console.ReadLine();
-       }
-}
+            Console.WriteLine("Add Assignment: " + x);
+            x *= 4;
+            Console.WriteLine("Multiply Assignment: " + x);
+            x %= 7;
+            Console.WriteLine("Modulo Assignment: " + x);
+            x &= 10;
+            Console.WriteLine("Bitwise And Assignment: " + x);
+            x ^= 12;
+            Console.WriteLine("Bitwise XOR Assignment: " + x);
+            x >>= 3;
+            Console.WriteLine("Right Shift Assignment: " + x);
+            Console.WriteLine("Press Enter Key to Exit..");
+            Console.ReadLine();
+        }
+    }
 }
