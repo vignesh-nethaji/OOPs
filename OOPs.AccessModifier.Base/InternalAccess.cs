@@ -6,12 +6,11 @@ namespace OOPs.AccessModifier.Base
 {
     class InternalAccess
     {
-       
         public void Test()
         {
             InternalBase internalBase = new InternalBase();
             internalBase.FName = "Selva";
-            internalBase.Id = 10 ;
+            internalBase.Id = 10;
         }
     }
 }
