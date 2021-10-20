@@ -7,6 +7,8 @@ namespace OOPs.Interfaces
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Validate validate = new Validate();
+            validate.Test();
         }
     }
 }
