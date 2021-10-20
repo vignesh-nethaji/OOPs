@@ -9,7 +9,7 @@ using System.Drawing;
 
 namespace OOPs.Automobile
 {
-    public class AutomobileValidate
+    public class Validate
     {
         public void CheckCarInstance()
         {

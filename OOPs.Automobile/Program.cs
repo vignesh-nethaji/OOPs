@@ -14,17 +14,17 @@ namespace OOPs.Automobile
             BuildMotors buildMotors = new BuildMotors();
             buildMotors.ElectricCars();
 
-            AutomobileValidate automobileValidate = new AutomobileValidate();
-            automobileValidate.CheckCarInstance();
-            automobileValidate.CheckIsValid();
-            automobileValidate.CheckToString();
-            automobileValidate.CheckOperatorOverload();
-            automobileValidate.CheckVehicleTypeException();
-            automobileValidate.CheckPSversion();
-            automobileValidate.CheckObjectTypeConversion();
-            automobileValidate.CheckOverrideIsValid();
-            automobileValidate.CheckDelegate();
-            automobileValidate.CheckCustomDelegate();
+            Validate validate = new Validate();
+            validate.CheckCarInstance();
+            validate.CheckIsValid();
+            validate.CheckToString();
+            validate.CheckOperatorOverload();
+            validate.CheckVehicleTypeException();
+            validate.CheckPSversion();
+            validate.CheckObjectTypeConversion();
+            validate.CheckOverrideIsValid();
+            validate.CheckDelegate();
+            validate.CheckCustomDelegate();
 
 
 
