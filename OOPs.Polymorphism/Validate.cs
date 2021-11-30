@@ -174,7 +174,8 @@ namespace OOPs.Polymorphism
             };
 
             string name = s3; // implicit
-            StudentSample s5 = (StudentSample)s3.Name; // Explicit conversion 
+            string strName = "Vignesh";
+            StudentSample s5 = (StudentSample)strName; // Explicit conversion 
         }
         #endregion
     }
