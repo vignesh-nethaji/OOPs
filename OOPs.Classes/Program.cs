@@ -33,12 +33,16 @@ namespace OOPs.Classes
 
             #region Sealed
             SealedClass sealedClass = new SealedClass();
-            sealedClass.MyProperty =10;
+            sealedClass.MyProperty = 10;
             #endregion
 
             #region Partial Definition
             TestPartial testPartial = new TestPartial();
             testPartial.Mobile = "safsdf";
+            #endregion
+
+            #region Abstract Class
+            AbstractValidate abstractValidate = new AbstractValidate();
             #endregion
         }
     }
