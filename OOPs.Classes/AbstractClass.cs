@@ -12,10 +12,13 @@ namespace OOPs.Classes
         public int Id { get; set; }
 
         /// <summary>
-        /// Protected property or variable can access only from derived class.
+        /// Protected property or variable can access only from base and derived class.
         /// </summary>
         protected string Name { get; set; }
-        // we can't define Abstract method in Abstract class. we can declare it here.
+
+        /// <summary>
+        /// we can't define Abstract method in Abstract class. we can declare it here.
+        /// </summary>
         public abstract void AbstractMethod1(); // You can define your own method name. 
 
         /// <summary>
@@ -131,7 +134,7 @@ namespace OOPs.Classes
         public void AccessProtectedMember()
         {
             AbstractDerived1 obj = new AbstractDerived1();
-            // obj.Name = "New Name"; //Protected members can access only from derived class
+           // obj.Name = "New Name"; //Protected members can access only from derived class
         }
     }
 }

@@ -16,7 +16,7 @@ namespace OOPs.Interfaces
             IVehicle iCar = new Car();
             iCar.Name = "ICar1";
             iCar.Manufacture = 2018;
-            // iCar.CarProperty = "ICar Properties";
+            //iCar.CarProperty = "ICar Properties";
 
             Bus bus = new Bus();
             bus.Name = "Bus1";
